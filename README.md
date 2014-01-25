@@ -1,4 +1,4 @@
 Javascript TDD with Jasmine
 =================
 
-1) Hello World 
+1) Hello World
