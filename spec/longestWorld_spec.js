@@ -12,4 +12,9 @@ describe('longestWord', function() {
             output = 'time';
         expect(longestWord(input)).toEqual(output);
     });
+    it("finds longest word Input = 'I love dogs' Output = 'love' ", function() {
+        var input = 'I love dogs',
+            output = 'love';
+        expect(longestWord(input)).toEqual(output);
+    });
 });
