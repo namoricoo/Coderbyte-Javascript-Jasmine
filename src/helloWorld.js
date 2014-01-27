@@ -1,3 +1,4 @@
 var helloWorld = function() {
-    return "Hello World";
-};
+        "use strict";
+        return "Hello World";
+    };

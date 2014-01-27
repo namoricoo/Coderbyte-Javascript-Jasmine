@@ -1,0 +1,266 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'jslint', '-g' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose cache add [ 'jslint', null ]
+5 verbose cache add name=undefined spec="jslint" args=["jslint",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'jslint',
+6 verbose parsed url   path: 'jslint',
+6 verbose parsed url   href: 'jslint' }
+7 silly lockFile 606b7026-jslint jslint
+8 verbose lock jslint /Users/namoricoe/.npm/606b7026-jslint.lock
+9 silly lockFile 606b7026-jslint jslint
+10 silly lockFile 606b7026-jslint jslint
+11 verbose addNamed [ 'jslint', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 564fcf84-jslint jslint@
+14 verbose lock jslint@ /Users/namoricoe/.npm/564fcf84-jslint.lock
+15 silly addNameRange { name: 'jslint', range: '*', hasData: false }
+16 verbose url raw jslint
+17 verbose url resolving [ 'https://registry.npmjs.org/', './jslint' ]
+18 verbose url resolved https://registry.npmjs.org/jslint
+19 info trying registry request attempt 1 at 23:19:02
+20 http GET https://registry.npmjs.org/jslint
+21 http 200 https://registry.npmjs.org/jslint
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Sun, 26 Jan 2014 07:19:02 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+22 silly registry.get     etag: '"A1MM1Q2WHU8GL4UKWX3V2BYMB"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'content-length': '33339',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-lax1428-LAX',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1390720742.710438490,VS0,VE112',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'jslint', range: '*', hasData: true }
+24 silly addNameRange versions [ 'jslint',
+24 silly addNameRange   [ '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.4',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.1.6',
+24 silly addNameRange     '0.1.8',
+24 silly addNameRange     '0.1.9',
+24 silly addNameRange     '0.1.10',
+24 silly addNameRange     '0.1.11',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.2',
+24 silly addNameRange     '0.2.3',
+24 silly addNameRange     '0.2.4',
+24 silly addNameRange     '0.2.5',
+24 silly addNameRange     '0.2.6',
+24 silly addNameRange     '0.2.7' ] ]
+25 verbose addNamed [ 'jslint', '0.2.7' ]
+26 verbose addNamed [ '0.2.7', '0.2.7' ]
+27 silly lockFile e8a67d53-jslint-0-2-7 jslint@0.2.7
+28 verbose lock jslint@0.2.7 /Users/namoricoe/.npm/e8a67d53-jslint-0-2-7.lock
+29 silly lockFile dc1ee05f-pmjs-org-jslint-jslint-0-2-7-tgz https://registry.npmjs.org/jslint/-/jslint-0.2.7.tgz
+30 verbose lock https://registry.npmjs.org/jslint/-/jslint-0.2.7.tgz /Users/namoricoe/.npm/dc1ee05f-pmjs-org-jslint-jslint-0-2-7-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/jslint/-/jslint-0.2.7.tgz',
+31 verbose addRemoteTarball   '8fa6685cce98bd0818f12167845610034145d045' ]
+32 info retry fetch attempt 1 at 23:19:03
+33 verbose fetch to= /var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/tmp.tgz
+34 http GET https://registry.npmjs.org/jslint/-/jslint-0.2.7.tgz
+35 http 200 https://registry.npmjs.org/jslint/-/jslint-0.2.7.tgz
+36 verbose tar unpack /var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/tmp.tgz
+37 silly lockFile 7fe97816-43055-0-9670341336168349-package tar:///var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/package
+38 verbose lock tar:///var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/package /Users/namoricoe/.npm/7fe97816-43055-0-9670341336168349-package.lock
+39 silly lockFile 5a994c5e-43055-0-9670341336168349-tmp-tgz tar:///var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/tmp.tgz
+40 verbose lock tar:///var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/tmp.tgz /Users/namoricoe/.npm/5a994c5e-43055-0-9670341336168349-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+46 silly gunzTarPerm extractEntry bin/jslint.js
+47 silly gunzTarPerm modified mode [ 'bin/jslint.js', 438, 420 ]
+48 silly gunzTarPerm extractEntry doc/jslint.html
+49 silly gunzTarPerm modified mode [ 'doc/jslint.html', 438, 420 ]
+50 silly gunzTarPerm extractEntry doc/jslint.md
+51 silly gunzTarPerm modified mode [ 'doc/jslint.md', 438, 420 ]
+52 silly gunzTarPerm extractEntry jslintrc.example
+53 silly gunzTarPerm modified mode [ 'jslintrc.example', 438, 420 ]
+54 silly gunzTarPerm extractEntry lib/color.js
+55 silly gunzTarPerm modified mode [ 'lib/color.js', 438, 420 ]
+56 silly gunzTarPerm extractEntry lib/jslint-2013-08-13.js
+57 silly gunzTarPerm modified mode [ 'lib/jslint-2013-08-13.js', 438, 420 ]
+58 silly gunzTarPerm extractEntry lib/jslint-2013-08-26.js
+59 silly gunzTarPerm modified mode [ 'lib/jslint-2013-08-26.js', 438, 420 ]
+60 silly gunzTarPerm extractEntry lib/jslint-2013-09-22.js
+61 silly gunzTarPerm modified mode [ 'lib/jslint-2013-09-22.js', 438, 420 ]
+62 silly gunzTarPerm extractEntry lib/jslint-latest.js
+63 silly gunzTarPerm modified mode [ 'lib/jslint-latest.js', 438, 420 ]
+64 silly gunzTarPerm extractEntry lib/jslint-2013-02-03.js
+65 silly gunzTarPerm modified mode [ 'lib/jslint-2013-02-03.js', 438, 420 ]
+66 silly gunzTarPerm extractEntry lib/linter.js
+67 silly gunzTarPerm modified mode [ 'lib/linter.js', 438, 420 ]
+68 silly gunzTarPerm extractEntry lib/main.js
+69 silly gunzTarPerm modified mode [ 'lib/main.js', 438, 420 ]
+70 silly gunzTarPerm extractEntry lib/nodelint.js
+71 silly gunzTarPerm modified mode [ 'lib/nodelint.js', 438, 420 ]
+72 silly gunzTarPerm extractEntry lib/reporter.js
+73 silly gunzTarPerm modified mode [ 'lib/reporter.js', 438, 420 ]
+74 silly gunzTarPerm extractEntry lib/jslint.js
+75 silly gunzTarPerm modified mode [ 'lib/jslint.js', 438, 420 ]
+76 silly gunzTarPerm extractEntry lib/main.js~
+77 silly gunzTarPerm modified mode [ 'lib/main.js~', 438, 420 ]
+78 silly gunzTarPerm extractEntry Makefile
+79 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+80 silly gunzTarPerm extractEntry man/jslint.1
+81 silly gunzTarPerm modified mode [ 'man/jslint.1', 438, 420 ]
+82 silly lockFile 7fe97816-43055-0-9670341336168349-package tar:///var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/package
+83 silly lockFile 7fe97816-43055-0-9670341336168349-package tar:///var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/package
+84 silly lockFile 5a994c5e-43055-0-9670341336168349-tmp-tgz tar:///var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/tmp.tgz
+85 silly lockFile 5a994c5e-43055-0-9670341336168349-tmp-tgz tar:///var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/tmp.tgz
+86 verbose tar pack [ '/Users/namoricoe/.npm/jslint/0.2.7/package.tgz',
+86 verbose tar pack   '/var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/package' ]
+87 verbose tarball /Users/namoricoe/.npm/jslint/0.2.7/package.tgz
+88 verbose folder /var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/package
+89 silly lockFile 7fe97816-43055-0-9670341336168349-package tar:///var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/package
+90 verbose lock tar:///var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/package /Users/namoricoe/.npm/7fe97816-43055-0-9670341336168349-package.lock
+91 silly lockFile 30ab65e7-coe-npm-jslint-0-2-7-package-tgz tar:///Users/namoricoe/.npm/jslint/0.2.7/package.tgz
+92 verbose lock tar:///Users/namoricoe/.npm/jslint/0.2.7/package.tgz /Users/namoricoe/.npm/30ab65e7-coe-npm-jslint-0-2-7-package-tgz.lock
+93 silly lockFile 7fe97816-43055-0-9670341336168349-package tar:///var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/package
+94 silly lockFile 7fe97816-43055-0-9670341336168349-package tar:///var/folders/2k/y5zc96f14dqgc1x_h_nbdvwh0000gn/T/npm-40283-bhZXlNEI/1390720743055-0.9670341336168349/package
+95 silly lockFile 30ab65e7-coe-npm-jslint-0-2-7-package-tgz tar:///Users/namoricoe/.npm/jslint/0.2.7/package.tgz
+96 silly lockFile 30ab65e7-coe-npm-jslint-0-2-7-package-tgz tar:///Users/namoricoe/.npm/jslint/0.2.7/package.tgz
+97 silly lockFile fd7ed577-moricoe-npm-jslint-0-2-7-package /Users/namoricoe/.npm/jslint/0.2.7/package
+98 verbose lock /Users/namoricoe/.npm/jslint/0.2.7/package /Users/namoricoe/.npm/fd7ed577-moricoe-npm-jslint-0-2-7-package.lock
+99 silly lockFile fd7ed577-moricoe-npm-jslint-0-2-7-package /Users/namoricoe/.npm/jslint/0.2.7/package
+100 silly lockFile fd7ed577-moricoe-npm-jslint-0-2-7-package /Users/namoricoe/.npm/jslint/0.2.7/package
+101 verbose tar unpack /Users/namoricoe/.npm/jslint/0.2.7/package.tgz
+102 silly lockFile 4cb8d6e8-moricoe-npm-jslint-0-2-7-package tar:///Users/namoricoe/.npm/jslint/0.2.7/package
+103 verbose lock tar:///Users/namoricoe/.npm/jslint/0.2.7/package /Users/namoricoe/.npm/4cb8d6e8-moricoe-npm-jslint-0-2-7-package.lock
+104 silly lockFile 30ab65e7-coe-npm-jslint-0-2-7-package-tgz tar:///Users/namoricoe/.npm/jslint/0.2.7/package.tgz
+105 verbose lock tar:///Users/namoricoe/.npm/jslint/0.2.7/package.tgz /Users/namoricoe/.npm/30ab65e7-coe-npm-jslint-0-2-7-package-tgz.lock
+106 silly gunzTarPerm modes [ '755', '644' ]
+107 silly gunzTarPerm extractEntry package.json
+108 silly gunzTarPerm extractEntry README.md
+109 silly gunzTarPerm extractEntry Makefile
+110 silly gunzTarPerm extractEntry bin/jslint.js
+111 silly gunzTarPerm extractEntry doc/jslint.html
+112 silly gunzTarPerm extractEntry doc/jslint.md
+113 silly gunzTarPerm extractEntry jslintrc.example
+114 silly gunzTarPerm extractEntry lib/color.js
+115 silly gunzTarPerm extractEntry lib/jslint-2013-08-13.js
+116 silly gunzTarPerm extractEntry lib/jslint-2013-08-26.js
+117 silly gunzTarPerm extractEntry lib/jslint-2013-09-22.js
+118 silly gunzTarPerm extractEntry lib/jslint-latest.js
+119 silly gunzTarPerm extractEntry lib/jslint-2013-02-03.js
+120 silly gunzTarPerm extractEntry lib/linter.js
+121 silly gunzTarPerm extractEntry lib/main.js
+122 silly gunzTarPerm extractEntry lib/nodelint.js
+123 silly gunzTarPerm extractEntry lib/reporter.js
+124 silly gunzTarPerm extractEntry lib/jslint.js
+125 silly gunzTarPerm extractEntry lib/main.js~
+126 silly gunzTarPerm extractEntry man/jslint.1
+127 silly lockFile 4cb8d6e8-moricoe-npm-jslint-0-2-7-package tar:///Users/namoricoe/.npm/jslint/0.2.7/package
+128 silly lockFile 4cb8d6e8-moricoe-npm-jslint-0-2-7-package tar:///Users/namoricoe/.npm/jslint/0.2.7/package
+129 silly lockFile 30ab65e7-coe-npm-jslint-0-2-7-package-tgz tar:///Users/namoricoe/.npm/jslint/0.2.7/package.tgz
+130 silly lockFile 30ab65e7-coe-npm-jslint-0-2-7-package-tgz tar:///Users/namoricoe/.npm/jslint/0.2.7/package.tgz
+131 verbose chmod /Users/namoricoe/.npm/jslint/0.2.7/package.tgz 644
+132 verbose chown /Users/namoricoe/.npm/jslint/0.2.7/package.tgz [ 501, 20 ]
+133 silly lockFile dc1ee05f-pmjs-org-jslint-jslint-0-2-7-tgz https://registry.npmjs.org/jslint/-/jslint-0.2.7.tgz
+134 silly lockFile dc1ee05f-pmjs-org-jslint-jslint-0-2-7-tgz https://registry.npmjs.org/jslint/-/jslint-0.2.7.tgz
+135 silly lockFile e8a67d53-jslint-0-2-7 jslint@0.2.7
+136 silly lockFile e8a67d53-jslint-0-2-7 jslint@0.2.7
+137 silly lockFile 564fcf84-jslint jslint@
+138 silly lockFile 564fcf84-jslint jslint@
+139 silly resolved [ { name: 'jslint',
+139 silly resolved     description: 'The JavaScript Code Quality Tool',
+139 silly resolved     homepage: 'https://github.com/reid/node-jslint',
+139 silly resolved     keywords: [ 'lint' ],
+139 silly resolved     version: '0.2.7',
+139 silly resolved     author: { name: 'Reid Burke', email: 'me@reidburke.com' },
+139 silly resolved     contributors:
+139 silly resolved      [ [Object],
+139 silly resolved        [Object],
+139 silly resolved        [Object],
+139 silly resolved        [Object],
+139 silly resolved        [Object],
+139 silly resolved        [Object],
+139 silly resolved        [Object],
+139 silly resolved        [Object],
+139 silly resolved        [Object],
+139 silly resolved        [Object],
+139 silly resolved        [Object] ],
+139 silly resolved     bin: { jslint: './bin/jslint.js' },
+139 silly resolved     main: './lib/nodelint.js',
+139 silly resolved     dependencies: { nopt: '~1.0.0' },
+139 silly resolved     devDependencies:
+139 silly resolved      { ronn: '0.4.0',
+139 silly resolved        istanbul: '~0.1.44',
+139 silly resolved        mocha: '~1.14.0',
+139 silly resolved        'fs.extra': '~1.2.1' },
+139 silly resolved     engines: { node: '>=0.4.12' },
+139 silly resolved     files: [ 'man', 'doc', 'lib', 'bin', 'jslintrc.example', 'Makefile' ],
+139 silly resolved     directories: { lib: './lib', man: './man', doc: './doc' },
+139 silly resolved     man: [ './man/jslint.1' ],
+139 silly resolved     repository: { type: 'git', url: 'git://github.com/reid/node-jslint.git' },
+139 silly resolved     bugs: { url: 'https://github.com/reid/node-jslint/issues' },
+139 silly resolved     licenses: [ [Object] ],
+139 silly resolved     scripts: { test: 'make test', prepublish: 'make prepublish' },
+139 silly resolved     readme: '## node-jslint\n\nEasily use [JSLint][] from the command line.\n\n    jslint bin/jslint.js\n\n## What\'s New\n\nVersion 0.2.6 of node-jslint provides multiple editions of jslint to \naddress backwards and forwards compatibility.\n\n### Use the default jslint\n\n    jslint lib/color.js\n\n### Always use the latest jslint\n\n    jslint --edition=latest lib/color.js\n\n### Use a specific edition \n\nFor example, edition 2013-02-03 which shipped with node-jslint 0.1.9:\n\n    jslint --edition=2013-02-03 lib/color.js\n\n## Install\n\n    npm install jslint -g\n\n## Self-Lint\n\n    make lint\n\n## Usage examples\n\nMultiple files\n\n    jslint lib/color.js lib/reporter.js\n\nAll JSLint options supported\n\n    jslint --white --vars --regexp lib/color.js\n\nDefaults to true, but you can specify false\n\n    jslint --bitwise false lib/color.js\n\nPass arrays\n\n    jslint --predef $ --predef Backbone lib/color.js\n\nJSLint your entire project\n\n    find . -name "*.js" -print0 | xargs -0 jslint\n\nUsing JSLint with a config file\n\nStart with the included jslintrc.example file and customize your options \nper project or copy it to $HOME/.jslintrc to apply your setting globally\n\n## License\n\nSee LICENSE file.\n\n[JSLint]: http://jslint.com/\n',
+139 silly resolved     readmeFilename: 'README.md',
+139 silly resolved     _id: 'jslint@0.2.7',
+139 silly resolved     dist: { shasum: '38b0ffd43321a23cd682804f9fee27e50379364d' },
+139 silly resolved     _from: 'jslint@',
+139 silly resolved     _resolved: 'https://registry.npmjs.org/jslint/-/jslint-0.2.7.tgz' } ]
+140 info install jslint@0.2.7 into /usr/local/lib
+141 info installOne jslint@0.2.7
+142 info /usr/local/lib/node_modules/jslint unbuild
+143 verbose tar unpack /Users/namoricoe/.npm/jslint/0.2.7/package.tgz
+144 silly lockFile b658dde3-sr-local-lib-node-modules-jslint tar:///usr/local/lib/node_modules/jslint
+145 verbose lock tar:///usr/local/lib/node_modules/jslint /Users/namoricoe/.npm/b658dde3-sr-local-lib-node-modules-jslint.lock
+146 silly lockFile 30ab65e7-coe-npm-jslint-0-2-7-package-tgz tar:///Users/namoricoe/.npm/jslint/0.2.7/package.tgz
+147 verbose lock tar:///Users/namoricoe/.npm/jslint/0.2.7/package.tgz /Users/namoricoe/.npm/30ab65e7-coe-npm-jslint-0-2-7-package-tgz.lock
+148 silly gunzTarPerm modes [ '755', '644' ]
+149 error Error: EACCES, mkdir '/usr/local/lib/node_modules/jslint'
+149 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/jslint']
+149 error   errno: 3,
+149 error   code: 'EACCES',
+149 error   path: '/usr/local/lib/node_modules/jslint',
+149 error   fstream_type: 'Directory',
+149 error   fstream_path: '/usr/local/lib/node_modules/jslint',
+149 error   fstream_class: 'DirWriter',
+149 error   fstream_stack:
+149 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+149 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+149 error      'Object.oncomplete (fs.js:107:15)' ] }
+150 error Please try running this command again as root/Administrator.
+151 error System Darwin 13.0.0
+152 error command "node" "/usr/local/bin/npm" "install" "jslint" "-g"
+153 error cwd /Users/namoricoe/Documents/Aptana Studio 3 Workspace/coderbyte_javascript_jasmine
+154 error node -v v0.10.24
+155 error npm -v 1.3.21
+156 error path /usr/local/lib/node_modules/jslint
+157 error fstream_path /usr/local/lib/node_modules/jslint
+158 error fstream_type Directory
+159 error fstream_class DirWriter
+160 error code EACCES
+161 error errno 3
+162 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/jslint'
+163 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+163 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+163 error fstream_stack Object.oncomplete (fs.js:107:15)
+164 verbose exit [ 3, true ]
