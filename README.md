@@ -8,3 +8,5 @@ We are solving the coderbyte.com problems using Javascript TDD and the style is 
 2) First reverse: For this challenge you will be reversing a string.
 
 3) First Factorial: For this challenge you will be determining the factorial for a given number.
+
+4) Longest Word: For this challenge you will be determining the largest word in a string.
