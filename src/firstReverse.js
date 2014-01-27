@@ -1,10 +1,11 @@
 var firstReverse = function(stringInput) {
         "use strict";
-        var characterArray = stringInput.split(''),
-            outputString = '',
+        var resultString = '',
+            size = stringInput.length,
             index;
-        for (index = characterArray.length - 1; index > -1; index -= 1) {
-            outputString += characterArray[index];
-        }
-        return outputString;
+            for(index = 0; index < size; index += 1) {
+            	resultString += stringInput.charAt(size - index);
+            }
+            resultString += stringInput.charAt(0);
+            return resultString;       
     };
