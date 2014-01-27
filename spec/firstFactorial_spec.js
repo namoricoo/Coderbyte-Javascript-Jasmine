@@ -7,4 +7,9 @@ describe('firstFactorial', function() {
             outputNumber = 24;
         expect(firstFactorial(inputNumber)).toEqual(outputNumber);
     });
+     it("returns the factorial input='8' ouput='40320'", function() {
+        var inputNumber = 8,
+            outputNumber = 40320;
+        expect(firstFactorial(inputNumber)).toEqual(outputNumber);
+    });
 });
