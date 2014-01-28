@@ -36,7 +36,7 @@ function nextCharacter(character,alphabetObject) {
 	var array = Object.keys(alphabetObject);	
 	var index = array.indexOf(character);	
 	
-	if (index == 26) {
+	if (index == 25) {
 			 return 'a';
 	}
 	else {

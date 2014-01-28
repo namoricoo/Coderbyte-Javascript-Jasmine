@@ -13,4 +13,14 @@ describe('letterChanger', function() {
             output = 'b';
         expect(letterChanger(input)).toEqual(output);
     });
+    it("gets next letter in alpabet Input = 'hello*3' Output = 'Ifmmp*3'", function() {
+        var input = 'hello*3',
+            output = 'Ifmmp*3';
+        expect(letterChanger(input)).toEqual(output);
+    });
+    it("gets next letter in alpabet Input = 'zab' Output = 'Abc'", function() {
+        var input = 'zab',
+            output = 'Abc';
+        expect(letterChanger(input)).toEqual(output);
+    });
 });
