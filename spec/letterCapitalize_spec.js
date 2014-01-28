@@ -8,4 +8,9 @@ describe('letterCapitalize', function() {
             output = 'Hello World';
         expect(letterCapitalize(input)).toEqual(output);
     });
+    it(" Input = 'i ran there' Output = 'I Ran There' ", function() {
+        var input = 'i ran there',
+            output = 'I Ran There';
+        expect(letterCapitalize(input)).toEqual(output);
+    });
 });
