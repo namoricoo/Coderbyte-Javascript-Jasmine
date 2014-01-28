@@ -1,19 +1,19 @@
-function capitalize (oneWord) {
+function capitalize(oneWord) {
+    'use strict';
     return oneWord.charAt(0).toUpperCase() + oneWord.slice(1).toLowerCase();
 }
 
-var letterCapitalize = function(inputString) {
+var letterCapitalize = function (inputString) {
         'use strict';
-        var outputString ='',
+        var outputString = '',
             index = 0,
             inputArray = inputString.split(' ');
-        inputArray.forEach( function(oneWord) {
-            outputString += capitalize (oneWord);
+        inputArray.forEach(function (oneWord) {
+            outputString += capitalize(oneWord);
             index += 1;
             if (index < inputArray.length) {
-                 outputString += ' ';
-            }               
-            
+                outputString += ' ';
+            }
         });
         return outputString;
     };
