@@ -1,8 +1,10 @@
 var checkNums = function (numberOne, numberTwo) {
         'use strict';
+        var result = '';
         if (numberTwo > numberOne) {
-          return 'true';
+            result = 'true';
         } else {
-          return '-1';
+            result = '-1';
         }
+        return result;
     };
