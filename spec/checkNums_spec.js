@@ -10,4 +10,10 @@ describe('checkNums', function() {
             output  = 'true';
         expect(checkNums(num1, num2)).toEqual(output);
     });
+    it("second less than first, num1 = 67 & num2 = 67 Output = '-1'", function() {
+        var num1 = 67,
+            num2 = 67,
+            output  = '-1';
+        expect(checkNums(num1, num2)).toEqual(output);
+    });
 });
