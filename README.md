@@ -3,7 +3,7 @@
 
 We are solving the coderbyte.com problems using Javascript TDD and the style is checked with JsLint
 1. Easy problems
- * Hello World: classic hello world	
+ * Hello World: classic hello world
  * First reverse: For this challenge you will be reversing a string.
  * First Factorial: For this challenge you will be determining the factorial for a given number.
  * Longest Word: For this challenge you will be determining the largest word in a string.
