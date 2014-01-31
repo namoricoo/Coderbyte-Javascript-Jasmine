@@ -1,4 +1,8 @@
 describe("Calculator", function() {
+  beforeEach(function() {
+    Calculator.current = 0;
+  });
+
   it("should store the current value at all times", function() {
     expect(Calculator.current).toBeDefined();    
   });
@@ -14,5 +18,9 @@ describe("Calculator", function() {
     // See what happens if we add a second number
     output = 10;
     expect(Calculator.add(input)).toEqual(output);
+  });
+  it("should add any number of numbers", function() {
+      var output = 6;
+      expect(Calculator.add(1,2,3)).toEqual(output);
   });
 });
