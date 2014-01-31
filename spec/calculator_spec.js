@@ -41,7 +41,7 @@ describe("Calculator", function() {
   it("should reset current value", function() {
     var output = 0;
     Calculator.current = 20;
-    
-    expect(Calculator.current.toEqual(output);    
+    Calculator.reset();
+    expect(Calculator.current).toEqual(output);    
   });
 });
