@@ -7,13 +7,13 @@ describe('checkNums', function() {
     it("second less than first, num1 = 3 & num2 = 122 Output = 'true'", function() {
         var num1 = 3,
             num2 = 122,
-            output  = 'true';
+            output = 'true';
         expect(checkNums(num1, num2)).toEqual(output);
     });
     it("second less than first, num1 = 67 & num2 = 67 Output = '-1'", function() {
         var num1 = 67,
             num2 = 67,
-            output  = '-1';
+            output = '-1';
         expect(checkNums(num1, num2)).toEqual(output);
     });
 });
