@@ -1,4 +1,8 @@
 describe("Calculator", function() {
+  it("should store the current value at all times", function() {
+    expect(Calculator.current).toBeDefined();
+  });
+
   it("should add numbers", function() {
     var input = 5,
         output = 5;
