@@ -20,7 +20,10 @@ describe("Calculator", function() {
     expect(Calculator.add(input)).toEqual(output);
   });
   it("should add any number of numbers", function() {
-      var output = 6;
-      expect(Calculator.add(1,2,3)).toEqual(output);
+    var output = 6;
+    expect(Calculator.add(1,2,3)).toEqual(output);
+    // test to make sure the previous total is not getting reset
+    output = 16;
+    expect(Calculator.add(1,2,3,4)).toEqual(output);
   });
 });
