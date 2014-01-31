@@ -37,4 +37,9 @@ describe("Calculator", function() {
       expect(Calculator.substract(input)).toEqual(-5);
     });
   });
+
+  it("should reset current value", function() {
+      var output = 0;
+      expect(Calculator.reset()).toEqual(output);    
+  });
 });
