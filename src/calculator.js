@@ -8,5 +8,8 @@ window.Calculator = {
     }
     this.current = sum;
     return this.current;
+  },
+  substract: function(inputNumber) {
+    return this.current - inputNumber;
   }
 };
