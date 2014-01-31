@@ -21,6 +21,6 @@ window.Calculator = {
     return this.current;
   },
   reset: function() {
-    return this.current = 0;
+    this.current = 0;
   }
 };
