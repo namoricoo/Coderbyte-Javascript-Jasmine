@@ -1,6 +1,11 @@
 describe("Calculator", function() {
   it("should store the current value at all times", function() {
     expect(Calculator.current).toBeDefined();
+
+    expect(Calculator.current).toEqual(0);
+  });
+  it("current should have initial value of zero '0' ", function() {
+    expect(Calculator.current).toEqual(0);
   });
 
   it("should add numbers", function() {
