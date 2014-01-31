@@ -13,4 +13,7 @@ We are solving the coderbyte.com problems using Javascript TDD and the style is 
  * Simple Symbol: For this challenge you will be determining whether or not certain characters are in correct positions.
  * Check nums: For this challenge you will be comparing two numbers and determining which one is greater.
  * Time Convert: For this challenge you will be determining the difference in hours and minutes between two given times.
+ 
+ 2. Intermediate
+ * Build a calculator using test Driven development...
 
